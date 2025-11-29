@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.myButton).setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
-            startActivity(intent)
+            resultLauncher.launch(intent)
         }
 
 

@@ -9,14 +9,6 @@
     tools:context=".MainActivity"
     >
 
-    <EditText
-        android:id="@+id/myEditSpace"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_margin="20dp"
-        android:hint="Enter Tamy!"
-        android:inputType="textMultiLine" />
-
     <TextView
         android:id="@+id/Card_question"
         android:layout_width="match_parent"
