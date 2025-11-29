@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/second_image"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#809C27B0" />
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="My question/answer space"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/add_question"
+        android:layout_below="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:hint="Enter your question!"
+        android:inputType="text"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/add_answer"
+        android:layout_below="@+id/add_question"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:hint="Enter your answer!"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="-3dp"
+        app:srcCompat="@drawable/my_closed_icon" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+
+
+</RelativeLayout>
