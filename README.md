@@ -1,5 +1,6 @@
 ##MyCard2
 
+<img src="lab2gif-ezgif.com-video-to-gif-converter.gif" width=200><br>
 
 ## Required
 - [ ] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
@@ -7,4 +8,3 @@
 - [ ] User can enter and submit a Question and Answer through the 'Add Card Screen'
 - [ ] User will see the card they just created on the main screen when they press the 'Save Button'
 - [ ] Push your progress to GitHub!
-<img src="lab2gif-ezgif.com-video-to-gif-converter.gif" width=200><br>
