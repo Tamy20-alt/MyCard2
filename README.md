@@ -7,4 +7,4 @@
 - [ ] User can enter and submit a Question and Answer through the 'Add Card Screen'
 - [ ] User will see the card they just created on the main screen when they press the 'Save Button'
 - [ ] Push your progress to GitHub!
-<img src="https://ezgif.com/video-to-gif/ezgif-7baeb8cb4c457c56.mp4.html" width=200><br>
+<img src="lab2gif-ezgif.com-video-to-gif-converter.gif" width=200><br>
