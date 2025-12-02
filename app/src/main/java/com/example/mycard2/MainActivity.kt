@@ -34,12 +34,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        val mycard_question =findViewById<TextView>(R.id.Card_question)
-        val mycard_answer =findViewById<TextView>(R.id.Card_answer)
+        val mycardquestion =findViewById<TextView>(R.id.Card_question)
+        val mycardanswer =findViewById<TextView>(R.id.Card_answer)
 
-        mycard_question.setOnClickListener {
-            mycard_question.visibility = View.INVISIBLE
-            mycard_answer.visibility = View.VISIBLE
+        mycardquestion.setOnClickListener {
+            mycardquestion.visibility = View.INVISIBLE
+            mycardanswer.visibility = View.VISIBLE
         }
 
         findViewById<View>(R.id.myButton).setOnClickListener {
